@@ -1,15 +1,62 @@
-#section1 {
+/*GENERAL*/
+body{
 
 }
 
-#section2 {
+/*HEADER*/
+#header{
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#left-header{
+    float: left;
+    display: flex;
+    height: 32px;
+    align-items: center;
+}
+
+#header-title{
+    padding-left: 8px;
+}
+
+.nav-links{
+    padding-right: 16px;
+}
+
+nav{
+    float: right;
+}
+
+/*LANDING*/
+#section1{
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+}
+
+#information-main{
+    width: 60%;
+}
+
+#section1-text{
+    padding-left: 24px;
+}
+/*LANDING 2*/
+#section2{
 
 }
 
-#section3 {
+/*START LEARNING*/
+#section3{
 
 }
 
-#section4 {
+/*THESIS EXHIBIT*/
+#section4{
 
 }
+
+/*FOOTER*/
