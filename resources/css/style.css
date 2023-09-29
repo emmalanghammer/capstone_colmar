@@ -1,8 +1,8 @@
 /*GENERAL*/
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0px;
-    color: #3A3B3C;
+    color: #535353;
 }
 
 p{
@@ -10,7 +10,10 @@ p{
 }
 
 h1{
-    font-size: 48px;
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 0%;
+
 }
 
 h2{
@@ -80,7 +83,7 @@ nav{
 }
 
 button{
-    background-color: #3A3B3C;
+    background-color: #535353;
     color: white;
     border: none;
     width: 60%;
@@ -127,6 +130,10 @@ button{
 .article-horizontal-content{
     width: 65%;
     padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .article-horizontal-image{
@@ -134,14 +141,121 @@ button{
     width: 35%;
 }
 
+.article-title{
+    margin:0%;
+    padding: 8px 0;
+}
+
+.article-content{
+    margin:0%;
+    padding: 8px 0;
+}
+
+.read-more{
+    color: #0079FB;
+    text-decoration: none;
+    font-size: 18px;
+    margin:0%;
+    padding: 8px 0;
+}
+
 /*START LEARNING*/
 #section3{
-
+    background-color: #F2F2F2;
+    padding: 32px 72px;
 }
+
+#header3{
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+#row1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#row2{
+    display: flex;
+    justify-content: center;
+}
+
+.article-vertical{
+    background-color: white;
+    width: 30%;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+.article-vertical-last{
+    background-color: white;
+    width: 30%;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+.article-vertical-content{
+    padding-top: 16px;
+    padding-bottom: 32px;
+    padding-left: 16px; 
+}
+
+.article-subtitle{
+    margin:0%;
+    padding: 8px 0;
+}
+
 
 /*THESIS EXHIBIT*/
 #section4{
+    display: flex;
+    padding-bottom: 32px;
+}
 
+#header4{
+    text-align: center;
+    margin: 32px 0;
+}
+
+#section4-left{
+    width: 60%;
+    padding-left: 24px;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+#section4-right{
+    width: 40%;
+    padding-left: 24px;
+}
+
+.article-horizontal-content-2{
+    width: 65%;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 /*FOOTER*/
+#footer{
+    padding: 16px 24px 24px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #D3D3D3;
+}
+
+#footer-left{
+
+}
+
+#footer-right{
+
+}
