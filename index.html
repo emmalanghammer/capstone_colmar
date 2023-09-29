@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Colmar Academy</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="" />
   <link rel="icon" href="favicon.png">
   <link rel="stylesheet" href="resources/css/style.css">
@@ -12,6 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+<div id="desktop-view">
 <!--Header-->
   <div id="header">
     <div id="left-header">
@@ -167,5 +168,160 @@
     <p>Terms   Privacy</p>
   </div>
 </div>
+</div>
+
+<!--MOBILE-->
+<div id="mobile-view">
+  <!--Header-->
+    <div id="mobile-header">
+      <a href="ic-logo"><img src="resources/images/ic-logo.svg" alt="logo"></a>
+      <a href="ic-on-campus"><img src="resources/images/ic-on-campus.svg" alt="on-campus"></a>
+      <a href="ic-online"><img src="resources/images/ic-online.svg" alt="online"></a>
+      <a href="ic-login"><img src="resources/images/ic-login.svg" alt="login"></a>
+    </div>
+  <!--Landing-->
+    <div id="section1">
+      <img src="resources/images/banner.jpg" alt="heroimage" id="heroimage">
+      <div id="section1-text">
+          <h1>Learn something <br> new everyday</h1>
+          <br>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          <br>
+          <button type="button">Start here</button>
+      </div>
+    </div>
+  <!--Landing 2-->
+    <div id="section2">
+      <div id="section2-left">
+          <img src="resources/images/information-main.jpg" alt="information-main" id="information-main">
+          <div id="section2-left-">
+            <h2 id="landing-h2">It doesn't hurt to keep practicing</h2>
+            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat tristiquue ligula."</p>
+            <p id="caption">Emanual, Sr Strategist at Hiring.com</p>
+          </div>
+      </div>
+      <div id="section2-right">
+          <div class="article-horizontal">
+              <img src="resources/images/information-orientation.jpg" alt="information-orientation" class="article-horizontal-image">
+              <div class="article-horizontal-content">
+                  <h3 class="article-title">Orientation date</h3>
+                  <p class="article-content">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                  <a class="read-more" href="read-more">Read more</a>
+              </div>
+          </div>
+          <div class="article-horizontal">
+              <img src="resources/images/information-campus.jpg" alt="information-campus" class="article-horizontal-image">
+              <div class="article-horizontal-content">
+                  <h3 class="article-title">Our campus</h3>
+                  <p class="article-content">Find which campus is close by you</p>
+                  <a class="read-more" href="read-more">Read more</a>
+              </div>
+          </div>
+          <div class="article-horizontal">
+              <img src="resources/images/information-guest-lecture.jpg" alt="guest-lecture" class="article-horizontal-image">
+              <div class="article-horizontal-content">
+                  <h3 class="article-title">Our guest lecture</h3>
+                  <p class="article-content">Join a keynote with Oliver Sack about music in medical treatment</p>
+                  <a class="read-more" href="read-more">Read more</a>
+              </div>
+          </div>
+      </div>
+  
+    </div>
+  <!--Start Learning-->
+    <div id="section3">
+      <h2 id="header3">Start learning</h2>
+      <div id="row1">
+        <div class="article-vertical">
+          <img src="resources/images/course-software.jpg" alt="course-software">
+          <div class="article-vertical-content"> 
+            <h3 class="article-title">Software engineering</h3>
+            <p class="article-subtitle">COURSES</p>
+            <p class="article-content">Web Development, Mobile Development, iOT, APIs</p>
+          </div>
+        </div>
+        <div class="article-vertical">
+          <img src="resources/images/course-computer-art.jpg" alt="course-computer-art">
+          <div class="article-vertical-content"> 
+            <h3 class="article-title">Computer art</h3>
+            <p class="article-subtitle">COURSES</p>
+            <p class="article-content">Imaging & Design, Web design, Motion Graphics & Visual Effects, Computer Animation</p>
+          </div>
+          </div>
+        <div class="article-vertical-last">
+          <img src="resources/images/course-design.jpg" alt="course-design">
+          <div class="article-vertical-content"> 
+            <h3 class="article-title">Design</h3>
+            <p class="article-subtitle">COURSES</p>
+            <p class="article-content">User Experience Design, User Research, Visual Design</p>
+          </div>
+        </div>
+      </div>
+      <div id="row2">
+        <div class="article-vertical">
+          <img src="resources/images/course-data.jpg" alt="course-data">
+          <div class="article-vertical-content">
+            <h3 class="article-title">Data</h3>
+            <p class="article-subtitle">COURSES</p>
+            <p class="article-content">Data Science, Big Data, SQL, Data Visualization</p>
+          </div>
+        </div>
+        <div class="article-vertical">
+          <img src="resources/images/course-business.jpg" alt="course-business">
+          <div class="article-vertical-content">
+            <h3 class="article-title">Business</h3>
+            <p class="article-subtitle">COURSES</p>
+            <p class="article-content">Product Development, Business Development, Startup</p>
+          </div>
+        </div>
+        <div class="article-vertical-last">
+          <img src="resources/images/course-marketing.jpg" alt="course-marketing">
+          <div class="article-vertical-content">
+            <h3 class="article-title">Marketing</h3>
+            <p class="article-subtitle">COURSES</p>
+            <p class="article-content">Analytics, Content Marketing, Mobile Marketing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--Thesis Exhibit-->
+  <h2 id="header4">Thesis Exhibit</h2>
+  <div id="section4">
+    <div id="section4-left">
+      <video width="320" height="240" controls>
+        <source src="resources/videos/thesis.mp4" type="video/mp4" id="video">
+        Your browser does not support the video tag.
+      </video>
+      <h3>Reimagine urban</h3>
+      <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat tristiquue ligula."</p>
+    </div>
+    <div id="section4-right">
+      <div class="article-horizontal">
+        <img src="resources/images/thesis-fisma.jpg" alt="thesis-fisma" class="article-horizontal-image">
+              <div class="article-horizontal-content-2">
+                  <h3>Fisma: Design and Prototype</h3>
+                  <p>Designer showcase of new prototype product</p>
+              </div>
+      </div>
+      <div class="article-horizontal">
+        <img src="resources/images/thesis-now-and-then.jpg" alt="thesis-now-and-then" class="article-horizontal-image">
+              <div class="article-horizontal-content-2">
+                  <h3>Now and then</h3>
+                  <p>Resesarch study about New York</p>
+              </div>
+      </div>
+    </div>
+  </div>
+  <!--Footer-->
+  <div id="footer">
+    <div id="footer-left">
+      <p>&copy 2016 Colmar Academy. All rights reserved</p>
+    </div>
+    <div id="footer-right">
+      <p>Terms   Privacy</p>
+    </div>
+  </div>
+  </div>
+
 </body>
 </html>
