@@ -252,6 +252,29 @@ video{
     border-top: 1px solid #D3D3D3;
 }
 
+/*MOBILE HEADER*/
+
+#mobile-header {
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+/*MOBILE LANDING*/
+
+/*MOBILE LANDING 2*/
+
+/*MOBILE START LEARNING*/
+
+/*MOBILE THESIS EXHIBIT*/
+
+/*MOBILE FOOTER*/
+
+
 @media only screen and (max-width: 620px) {
     /* For mobile phones: */
     #mobile-view {
