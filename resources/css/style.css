@@ -1,8 +1,16 @@
-/*GENERAL*/
+
+
+
+
+
+/*Retrying to design for mobile first
+/*GENERAL
 body{
     font-family: 'Inter', sans-serif;
     margin: 0px;
     color: #535353;
+    display: flex;
+    flex-direction: column;
 }
 
 p{
@@ -25,7 +33,7 @@ h3{
     font-weight: 600;
 }
 
-/*HEADER*/
+/*HEADER
 #header{
     height: 64px;
     padding-left: 24px;
@@ -60,7 +68,17 @@ nav{
     justify-content: right;
 }
 
-/*LANDING*/
+#mobile-header {
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/*LANDING
 #section1{
     display: flex;
     background-color: #D3D3D3;
@@ -71,6 +89,7 @@ nav{
     padding-left: 24px;
     padding-top: 32px;
     padding-bottom: 32px;
+    object-fit: contain;
 }
 
 #section1-text{
@@ -79,6 +98,7 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    word-break: normal;
     width: 30%;
 }
 
@@ -90,7 +110,7 @@ button{
     font-size: 24px;
     padding: 8px 0;
 }
-/*LANDING 2*/
+/*LANDING 2
 
 #section2{
     display: flex;
@@ -139,6 +159,7 @@ button{
 .article-horizontal-image{
     height: auto;
     width: 35%;
+    object-fit: contain;
 }
 
 .article-title{
@@ -159,7 +180,7 @@ button{
     padding: 8px 0;
 }
 
-/*START LEARNING*/
+/*START LEARNING
 #section3{
     background-color: #F2F2F2;
     padding: 32px 72px;
@@ -174,6 +195,7 @@ button{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    column-count: 1;
 }
 
 #row2{
@@ -208,7 +230,7 @@ button{
 }
 
 
-/*THESIS EXHIBIT*/
+/*THESIS EXHIBIT
 #section4{
     display: flex;
     padding-bottom: 32px;
@@ -243,7 +265,7 @@ video{
     justify-content: center;
 }
 
-/*FOOTER*/
+/*FOOTER
 #footer{
     padding: 16px 24px 24px 24px;
     display: flex;
@@ -252,38 +274,27 @@ video{
     border-top: 1px solid #D3D3D3;
 }
 
-/*MOBILE HEADER*/
-
-#mobile-header {
-    height: 64px;
-    padding-left: 24px;
-    padding-right: 24px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-/*MOBILE LANDING*/
-
-/*MOBILE LANDING 2*/
-
-/*MOBILE START LEARNING*/
-
-/*MOBILE THESIS EXHIBIT*/
-
-/*MOBILE FOOTER*/
-
 
 @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
+    /* For mobile phones: 
     #header{
         display: none;
     }
+
+    #section1{
+        flex-direction: column;
+    }
+    #heroimage{
+        align-items: center;
+        object-fit: cover;
+        background-size: cover;
+        max-width: 100%
+    }
+
   }
 
   @media only screen and (min-width: 621px) {
-    /* For desktop: */
+    /* For desktop: 
     #mobile-header{
         display: none;
     }
