@@ -277,20 +277,14 @@ video{
 
 @media only screen and (max-width: 620px) {
     /* For mobile phones: */
-    #mobile-view {
-      display: block;
-    }
-    #desktop-view{
+    #header{
         display: none;
     }
   }
 
   @media only screen and (min-width: 621px) {
     /* For desktop: */
-    #mobile-view {
-      display: none;
-    }
-    #desktop-view{
-        display: block;
+    #mobile-header{
+        display: none;
     }
   }
