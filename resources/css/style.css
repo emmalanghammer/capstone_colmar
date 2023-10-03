@@ -6,7 +6,7 @@ body{
     color: #535353;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vh;
 }
 p{
     font-size: 18px;
@@ -30,10 +30,8 @@ h3{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 100%;
-    min-width: 100%;
-    margin: 16px;
-}
+    width: 100vh;
+    margin: 16px;}
 
 #header{
     display: none;
@@ -47,7 +45,7 @@ h3{
 
 #heroimage{
     object-fit: cover;
-    max-width: 100%;
+    width: 100vh;
 }
 
 #section-1text{
