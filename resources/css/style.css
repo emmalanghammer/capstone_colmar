@@ -2,17 +2,20 @@
 /*GENERAL*/
 body{
     font-family: 'Inter', sans-serif;
-    margin: 0px;
     color: #535353;
     display: flex;
     flex-direction: column;
-    width: 100vh;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
 }
+
 p{
     font-size: 18px;
 }
 h1{
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 800;
     margin-bottom: 0%;
 }
@@ -30,8 +33,9 @@ h3{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vh;
-    margin: 16px;}
+    padding: 0px 16px 0px 16px;
+    position: relative;
+}
 
 #header{
     display: none;
@@ -45,17 +49,17 @@ h3{
 
 #heroimage{
     object-fit: cover;
-    width: 100vh;
+    width: 100%;
 }
 
-#section-1text{
+#section1-text{
     padding-left: 24px;
+    padding-bottom: 32px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     word-break: normal;
-    width: 30%;
 }
 
 button{
@@ -67,7 +71,35 @@ button{
     padding: 8px 0;
 }
 
+/*LANDING 2*/
 
+#section2{
+    display: flex;
+    padding-top: 16px;
+}
+
+#section2-left{
+    display: none;
+}
+
+.article-horizontal{
+    padding: 16px 16px 32px 16px;
+    display: block;
+}
+
+.article-horizontal-image{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+}
+
+.read-more{
+    color: #0079FB;
+    text-decoration: none;
+    font-size: 18px;
+    margin:0%;
+    padding: 8px 0;
+}
 
 
 
