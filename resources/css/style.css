@@ -124,18 +124,50 @@ button{
     padding-bottom: 24px;
     padding-left: 16px;
 }
-.article-subtitle{
+.article-subtitle-vertical{
     display: none;
 }
 
-.article-content{
+.article-content-vertical{
     display: none;
 }
 
 /*SECTION 4*/
+#header4{
+    border-top: 1px solid #D3D3D3;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 32px;
+}
 
+video{
+    width: 100%;
+    height: auto;
+}
 
+#section4-right{
+    display: none;
+}
 
+#section4-left-text{
+    display: none;
+}
+
+#section4{
+    padding-bottom: 24px;
+}
+
+/*FOOTER*/
+
+#footer-right{
+    display: none;
+}
+
+#footer{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
 
 
 
