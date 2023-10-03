@@ -27,16 +27,46 @@ h3{
 
 #mobile-header{
     height: 64px;
-    padding-left: 24px;
-    padding-right: 24px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
+    max-width: 100%;
+    min-width: 100%;
+    margin: 16px;
 }
 
 #header{
     display: none;
+}
+
+/*LANDING 1*/
+
+#section1{
+    background-color: #D3D3D3;
+}
+
+#heroimage{
+    object-fit: cover;
+    max-width: 100%;
+}
+
+#section-1text{
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    word-break: normal;
+    width: 30%;
+}
+
+button{
+    background-color: #535353;
+    color: white;
+    border: none;
+    width: 60%;
+    font-size: 24px;
+    padding: 8px 0;
 }
 
 
