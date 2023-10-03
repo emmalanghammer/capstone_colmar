@@ -169,6 +169,297 @@ video{
     padding-left: 16px;
 }
 
+/* anything that applies to just desktop:*/
+
+@media only screen and (min-width: 621px) {
+    body{
+        font-family: 'Inter', sans-serif;
+        margin: 0px;
+        color: #535353;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+    
+    h1{
+        font-size: 56px;
+        font-weight: 800;
+        margin-bottom: 0%;
+    
+    }
+    
+    h2{
+        font-size: 36px;
+    }
+    
+    h3{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    /*HEADER*/
+    #mobile-header{
+        display: none;
+    }
+
+    #header{
+        height: 64px;
+        padding-left: 24px;
+        padding-right: 24px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #left-header{
+        float: left;
+        display: flex;
+        height: 32px;
+        align-items: center;
+    }
+    
+    #header-title{
+        padding-left: 8px;
+    }
+    
+    .nav-links{
+        padding-right: 16px;
+        color: black;
+        text-decoration: none;
+    
+    }
+    
+    nav{
+        float: right;
+        display: flex;
+        justify-content: right;
+    }
+    
+    /*LANDING*/
+    #section1{
+        display: flex;
+        background-color: #D3D3D3;
+    }
+    
+    #heroimage{
+        width: 60%;
+        padding-left: 24px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        object-fit: contain;
+    }
+    
+    #section1-text{
+        padding-left: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        word-break: normal;
+        width: 30%;
+    }
+    
+    button{
+        background-color: #535353;
+        color: white;
+        border: none;
+        width: 60%;
+        font-size: 24px;
+        padding: 8px 0;
+    }
+    /*LANDING 2*/
+    
+    #section2{
+        display: flex;
+        padding-top: 16px;
+    }
+    
+    #section2-left{
+        display: block;
+        padding-bottom: 32px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 16px;
+        width: 60%;
+    }
+    
+    #information-main{
+        width: 100%;
+    }
+    
+    #landing-h2{
+        padding-bottom: 24px;
+        padding-top: 32px;
+    }
+    
+    #section2-right{
+        width: 40%;
+    }
+    
+    .article-horizontal{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 16px;
+        border-left: 1px solid #D3D3D3;
+        border-bottom: 1px solid #D3D3D3;
+        border-top: 1px solid #D3D3D3;
+    }
+    
+    .article-horizontal-content{
+        width: 65%;
+        padding-left: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .article-horizontal-image{
+        height: auto;
+        width: 35%;
+        object-fit: contain;
+    }
+    
+    .article-title{
+        margin:0%;
+        padding: 8px 0;
+    }
+    
+    .article-content{
+        margin:0%;
+        padding: 8px 0;
+    }
+    
+    .read-more{
+        color: #0079FB;
+        text-decoration: none;
+        font-size: 18px;
+        margin:0%;
+        padding: 8px 0;
+    }
+    
+    /*START LEARNING*/
+    #section3{
+        background-color: #F2F2F2;
+        padding: 32px 72px;
+    }
+    
+    #header3{
+        text-align: center;
+        padding-bottom: 32px;
+    }
+    
+    #row1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    #row2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .article-vertical{
+        background-color: white;
+        width: 30%;
+        margin-right: 32px;
+        margin-bottom: 32px;
+        overflow: hidden;
+    }
+    
+    .article-vertical-last{
+        background-color: white;
+        width: 30%;
+        margin-bottom: 32px;
+        overflow: hidden;
+    }
+    
+    .article-vertical-content{
+        padding-top: 16px;
+        padding-bottom: 32px;
+        padding-left: 16px; 
+    }
+    
+    .article-subtitle-vertical{
+        margin:0%;
+        padding: 8px 0;
+    }
+
+    .article-content-vertical{
+        display: block;
+    }
+
+    .article-title-vertical{
+        background-color: white;
+        padding: 0px;
+    }
+
+    .article-vertical-image{
+        display:block;
+        object-fit: cover;
+        height: 50%;
+    }
+    
+    /*THESIS EXHIBIT*/
+    #section4{
+        display: flex;
+        padding-bottom: 32px;
+    }
+    
+    #header4{
+        text-align: center;
+        margin: 32px 0;
+    }
+    
+    #section4-left{
+        width: 60%;
+        padding-left: 24px;
+    }
+
+    #section4-left-text{
+        display: block;
+    }
+
+    video{
+        width: 100%;
+        height: auto;
+    }
+    
+    #section4-right{
+        display: block;
+        width: 40%;
+        padding-left: 24px;
+    }
+    
+    .article-horizontal-content-2{
+        width: 65%;
+        padding-left: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    /*FOOTER*/
+    #footer{
+        padding: 16px 24px 24px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid #D3D3D3;
+    }
+
+    #footer-right{
+        display: block;
+    }
+  }
+
 
 
 
@@ -442,25 +733,6 @@ video{
     justify-content: space-between;
     border-top: 1px solid #D3D3D3;
 }
-
-
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: 
-    #header{
-        display: none;
-    }
-
-    #section1{
-        flex-direction: column;
-    }
-    #heroimage{
-        align-items: center;
-        object-fit: cover;
-        background-size: cover;
-        max-width: 100%
-    }
-
-  }
 
   @media only screen and (min-width: 621px) {
     /* For desktop:
